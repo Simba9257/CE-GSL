@@ -21,7 +21,7 @@ GNN encoders. To avoid over-fitting, We adopt ReLU (ELU for GAT)
 as the activation function and apply a dropout layer with a 
 dropout rate of 0.5. The training iteration is set to 10. The 
 embedding dimension $d$ is chosen from \{8, 16, 32, 48, 64, 80, 
-128, 256\}, and the hyperparameter $\theta$ in 3.4 is tuned among 
+128, 256\}, and the hyperparameter $\theta$ is tuned among 
 \{0.5, 1, 3, 5, 10, 30\}. We adopt the scheme of data split in 
 Geom-GCN \cite{pei2020geom} and $\mathrm{H}_{2} \mathrm{GCN}$ 
 for all experiments $-$ nodes are randomly divided into the train, 
